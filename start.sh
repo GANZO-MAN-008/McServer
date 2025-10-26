@@ -6,11 +6,11 @@ cd /McServer
 # Accept EULA (in case it's not in the image)
 echo "eula=true" > eula.txt
 
-echo "Starting Minecraft Forge Server..."
+#echo "Starting Minecraft Forge Server..."
 ls -la
 
 # Start server with reasonable memory allocation
-java -Xmx10G -Xms10G -jar forge.jar nogui
+#java -Xmx10G -Xms10G -jar forge.jar nogui
 
 # After server stops, try to push changes (if API_KEY exists)
 if [ -f /run/secrets/API_KEY ]; then
