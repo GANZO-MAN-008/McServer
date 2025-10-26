@@ -6,9 +6,6 @@ cd /McServer
 # Accept EULA (in case it's not in the image)
 echo "eula=true" > eula.txt
 
-chmod +x cloudflared-linux-amd64
-./cloudflared-linux-amd64 tunnel --url tcp://localhost:25565
-
 #echo "Starting Minecraft Forge Server..."
 ls -la
 
