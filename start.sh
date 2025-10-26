@@ -6,9 +6,8 @@ cd /McServer
 # Accept EULA (in case it's not in the image)
 echo "eula=true" > eula.txt
 
-./ngrok update
-./ngrok config add-authtoken $YOUR_AUTHTOKEN
-./ngrok tcp 25565
+chmod +x cloudflared
+./cloudflared tunnel --url tcp://localhost:25565
 
 #echo "Starting Minecraft Forge Server..."
 ls -la
