@@ -18,5 +18,5 @@ git config --global user.name $USERNAME
 git add .
 git commit -m "Server data update $(date)" || echo "Nothing to commit"
     
-API_KEY=$(cat /run/secrets/API_KEY)
+API_KEY=$(echo $API_KEY)
 git push https://${API_KEY}@github.com/GANZO-MAN-008/McServer.git HEAD:master || echo "Push failed"
