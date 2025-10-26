@@ -1,0 +1,88 @@
+[21:59:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:59:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:59:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:59:19] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[21:59:19] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_461, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_461
+[21:59:19] [main/INFO] [FML]: Searching C:\Users\ludik\Downloads\server\.\mods for mods
+[21:59:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:59:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:59:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:59:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:59:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:59:20] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:59:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:59:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:59:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:59:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:59:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:59:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:59:22] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[21:59:22] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_461]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_461]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_461]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_461]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_461]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_461]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_461]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_461]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_461]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_461]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_461]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:105) [nz$2.class:?]
+[21:59:22] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:59:22] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:59:22] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:59:22] [Server thread/INFO] [FML]: Searching C:\Users\ludik\Downloads\server\.\mods for mods
+[21:59:22] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[21:59:22] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:59:23] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[21:59:23] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[21:59:23] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:59:23] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:59:23] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:59:23] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:59:23] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:59:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:59:23] [Server thread/INFO] [FML]: Applying holder lookups
+[21:59:23] [Server thread/INFO] [FML]: Holder lookups applied
+[21:59:23] [Server thread/INFO] [FML]: Applying holder lookups
+[21:59:23] [Server thread/INFO] [FML]: Holder lookups applied
+[21:59:23] [Server thread/INFO] [FML]: Applying holder lookups
+[21:59:23] [Server thread/INFO] [FML]: Holder lookups applied
+[21:59:23] [Server thread/INFO] [FML]: Applying holder lookups
+[21:59:23] [Server thread/INFO] [FML]: Holder lookups applied
+[21:59:23] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:59:23] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[21:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[21:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[21:59:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[21:59:23] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[21:59:24] [Server thread/INFO] [FML]: Applying holder lookups
+[21:59:24] [Server thread/INFO] [FML]: Holder lookups applied
+[21:59:24] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:59:24] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:59:24] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[21:59:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[21:59:24] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[21:59:24] [Server thread/INFO] [FML]: Applying holder lookups
+[21:59:24] [Server thread/INFO] [FML]: Holder lookups applied
+[21:59:24] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@a09db6d)
+[21:59:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[21:59:24] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[21:59:24] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@a09db6d)
+[21:59:24] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@a09db6d)
+[21:59:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[21:59:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1,566s)! For help, type "help" or "?"
+[21:59:26] [Server thread/INFO] [FML]: Unloading dimension -1
+[21:59:26] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[22:00:13] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:00:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:00:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:00:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
