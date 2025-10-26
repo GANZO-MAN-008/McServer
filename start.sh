@@ -13,16 +13,8 @@ ls -la
 #java -Xmx10G -Xms10G -jar forge.jar nogui
 
 # After server stops, try to push changes (if API_KEY exists)
-if [ -f /run/secrets/API_KEY ]; then
-    echo "Pushing changes to GitHub..."
+git add .
+git commit -m "Server data update $(date)" || echo "Nothing to commit"
     
-    # Add and commit changes
-    git add .
-    git commit -m "Server data update $(date)" || echo "Nothing to commit"
-    
-    # Push using API key
-    API_KEY=$(cat /run/secrets/API_KEY)
-    git push https://${API_KEY}@github.com/GANZO-MAN-008/McServer.git HEAD:master || echo "Push failed"
-else
-    echo "No API_KEY found, skipping git push"
-fi
+API_KEY=$(cat /run/secrets/API_KEY)
+git push https://${API_KEY}@github.com/GANZO-MAN-008/McServer.git HEAD:master || echo "Push failed"
