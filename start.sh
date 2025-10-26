@@ -1,4 +1,4 @@
-java -Xmx10G -Xms10G -jar forge.jar nogui
+java -Xmx10G -Xms10G -jar /McServer/forge.jar nogui
 
 git add .
 git commit -m "initial commit"
