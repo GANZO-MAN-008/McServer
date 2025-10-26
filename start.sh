@@ -10,7 +10,8 @@ echo "eula=true" > eula.txt
 ls -la
 
 # Start server with reasonable memory allocation
-#java -Xmx10G -Xms10G -jar forge.jar nogui
+timeout 7200 java -Xmx10G -Xms10G -jar forge.jar nogui
+
 git config --global user.email $EMAIL
 git config --global user.name $USERNAME
 
