@@ -11,6 +11,8 @@ ls -la
 
 # Start server with reasonable memory allocation
 #java -Xmx10G -Xms10G -jar forge.jar nogui
+git config --global user.email $EMAIL
+git config --global user.name $USERNAME
 
 # After server stops, try to push changes (if API_KEY exists)
 git add .
