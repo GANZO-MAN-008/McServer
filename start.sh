@@ -1,4 +1,5 @@
 cd /McServer
+ls
 
 java -Xmx10G -Xms10G -jar forge.jar nogui
 
